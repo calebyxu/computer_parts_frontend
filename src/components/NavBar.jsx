@@ -5,7 +5,7 @@ import Layout from '../components/Layout.jsx';
 /* page imports */
 import Home from '../pages/Home.jsx';
 import Login from '../pages/Login.jsx';
-import Products from '../pages/products.jsx';
+import Products from '../pages/Products.jsx';
 
 function Navbar() {
     return (
