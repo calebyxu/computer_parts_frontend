@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '${https://github.com/calebyxu/computer_parts_web_frontend.git}',
+  base: '/computer_parts_web_frontend',
   plugins: [react()],
 })

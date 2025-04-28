@@ -1,5 +1,6 @@
 {
   "name": "frontend",
+  "homepage": "https://calebyxu.github.io/computer_parts_web_frontend/",
   "private": true,
   "version": "0.0.0",
   "proxy": "http://localhost:5000",
@@ -9,12 +10,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite",
-    "heroku-postbuild": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/react": "^3.12.0",
     "@emotion/react": "^11.14.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
