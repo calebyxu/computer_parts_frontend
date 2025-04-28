@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { Product } from '../pages/products.js'
+import { Product } from '../pages/Products.jsx'
 
 function ProductCard({id, name, price, image, openModel}) {
     const user = useContext(Product)
