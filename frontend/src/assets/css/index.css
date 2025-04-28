@@ -1,0 +1,13 @@
+/* General */
+
+/* header */
+.hero-header {
+    margin-bottom: 75px;
+    color: var(--white);
+}
+
+.hero-img {
+    width: 500px;
+    height: 500px;
+}
+
